@@ -53,7 +53,7 @@ const dateRangeOptions = [
   { label: 'All', type: 'all' }
 ];
 
-const API_BASE_URL = 'http://localhost:5000/api';
+const API_BASE_URL = 'https://chart-stock-market.railway.internal/api';
 
 export default function App() {
   const [stocks, setStocks] = useState([]);
